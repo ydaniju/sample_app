@@ -8,12 +8,12 @@ ruby '2.6.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-sass', '3.3.7'
 gem 'coffee-rails', '~> 4.2'
-gem 'haml-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '4.3.1'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'sass-rails', '~> 5.0'
+gem 'slim-rails'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
