@@ -13,12 +13,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select 'title', @base_title.to_s
   end
 
-  test 'should get home' do
-    get home_url
-    assert_response :success
-    assert_select 'title', @base_title.to_s
-  end
-
   test 'should get help' do
     get help_url
     assert_response :success
